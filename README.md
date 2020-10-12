@@ -16,7 +16,7 @@ The desired result of this fork is to package our own (possibly retrained) spacy
 
 Some useful info:
 
-* [Here's how to install a pre-existing model] (https://spacy.io/usage/models#download-manual)
+* [Here's how to install a pre-existing model](https://spacy.io/usage/models#download-manual)
 * [Here's a guide on how to package your own models](https://spacy.io/usage/models#own-models)
 
 Can we actually get the data of a downloaded model?? Can we actually change some parts of the pipeline of an imported model? We will found out soon enough.
