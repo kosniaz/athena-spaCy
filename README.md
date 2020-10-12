@@ -1,6 +1,6 @@
 <a href="https://explosion.ai"><img src="https://explosion.ai/assets/img/logo.svg" width="125" height="125" align="right" /></a>
 
-# spaCy: Industrial-strength NLP
+# athena forks spaCy: Industrial-strength NLP for ILSP!
 
 spaCy is a library for advanced Natural Language Processing in Python and
 Cython. It's built on the very latest research, and was designed from day one to
@@ -10,6 +10,16 @@ currently supports tokenization for **60+ languages**. It features
 state-of-the-art speed, convolutional **neural network models** for tagging,
 parsing and **named entity recognition** and easy **deep learning** integration.
 It's commercial open-source software, released under the MIT license.
+
+**********************************************************************************
+The desired result of this fork is to package our own (possibly retrained) spacy model with small modifications in the lemmatizer part.
+
+Some useful info:
+
+*[Here's how to install a pre-existing model] (https://spacy.io/usage/models#download-manual)
+*[Here's a guide on how to package your own models](https://spacy.io/usage/models#own-models)
+
+Can we actually get the data of a downloaded model?? Can we actually change some parts of the pipeline of an imported model? We will found out soon enough.
 
 💫 **Version 2.3 out now!**
 [Check out the release notes here.](https://github.com/explosion/spaCy/releases)
